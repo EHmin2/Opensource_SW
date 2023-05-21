@@ -41,9 +41,10 @@ $ top
       |     s      | 업데이트 간격 설정                  |
       |     H      | CPU 코어 별로 세부 정보를 표시       |
         * <details>
-          <summary>그외 더 많은 단축키</summary>
-            ![image](https://github.com/EHmin2/Opensource_SW/blob/master/man%20top%201.png)
-            ![image](https://github.com/EHmin2/Opensource_SW/blob/master/man%20top%202.png)
+          <summary>그외 더 많은 단축키를 알고 싶다면</summary>
+            <https://github.com/EHmin2/Opensource_SW/blob/master/man%20top%201.png>
+               
+            <https://github.com/EHmin2/Opensource_SW/blob/master/man%20top%202.png>
    
   + 프로세스 목록: 시스템에서 실행 중인 프로세스의 목록을 보여주는 영역. 
 
@@ -126,8 +127,8 @@ $ kill [옵션][PID]
    ![image](https://github.com/EHmin2/Opensource_SW/blob/master/kill.png)
 
   * <details>
-    <summary>가장 흔하게 쓰이는 신호들</summary>
-      ![image](https://github.com/EHmin2/Opensource_SW/blob/master/kill%20--.png)
+    <summary>가장 흔하게 쓰이는 신호들을 알고 싶다면</summary>
+      <https://github.com/EHmin2/Opensource_SW/blob/master/kill%20--.png>
   
 * kill 명령어 옵션들
   |   옵션   |     설명                      |
