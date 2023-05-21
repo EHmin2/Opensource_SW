@@ -129,6 +129,7 @@ $ kill [옵션][PID]
 
   * <details>
     <summary>가장 흔하게 쓰이는 신호들을 알고 싶다면</summary>
+      
       <https://github.com/EHmin2/Opensource_SW/blob/master/kill%20--.png>
   
 * kill 명령어 옵션들
