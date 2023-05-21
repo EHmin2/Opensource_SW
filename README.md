@@ -13,7 +13,7 @@
 $ top
 ```
 * top 명령어 실행 화면
-![image](https://github.com/EHmin2/Opensource_SW/blob/master/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4SW%20%EC%8B%A4%EC%8A%B5.png)
+![image](https://github.com/EHmin2/Opensource_SW/blob/master/top.png)
   + 상태줄: 시스템의 현재 상태를 보여주는 줄. 
 
     여기에는 시스템의 현재 시간, 업타임, CPU 사용량, 메모리 사용량, 디스크 사용량, 네트워크 사용량이 표시
@@ -42,6 +42,9 @@ $ top
       |     H      | CPU 코어 별로 세부 정보를 표시       |
         * <details>
           <summary>그외 더 많은 단축키</summary>
+            ![image](https://github.com/EHmin2/Opensource_SW/blob/master/man%20top%201.png)
+            ![image](https://github.com/EHmin2/Opensource_SW/blob/master/man%20top%202.png)
+   
   + 프로세스 목록: 시스템에서 실행 중인 프로세스의 목록을 보여주는 영역. 
 
     각 프로세스에는 PID, PPID 상태, CPU 사용량, 메모리 사용량, 실행 시간, 커맨드가 표시
@@ -57,6 +60,7 @@ $ top
 $ ps [옵션]
 ```
 * ps 명령어 실행 화면
+   ![image](https://github.com/EHmin2/Opensource_SW/blob/master/ps.png)
   
   
 * ps 명령어 흔하게 쓰이는 명령어
@@ -85,6 +89,7 @@ $ ps [옵션]
 $ jobs [옵션]
 ```
 * jobs 명령어 실행 화면
+   ![image](https://github.com/EHmin2/Opensource_SW/blob/master/jobs.png)
 
 * jobs로 출력되는 백그라운 작업의 상태값
   | __상태__         |              __설명__                  |
@@ -118,9 +123,11 @@ $ jobs [옵션]
 $ kill [옵션][PID]
 ```
 * kill 명령어 실행 화면( -l(사용 가능한 종료 신호의 목록) 옵션)
+   ![image](https://github.com/EHmin2/Opensource_SW/blob/master/kill.png)
 
   * <details>
     <summary>가장 흔하게 쓰이는 신호들</summary>
+      ![image](https://github.com/EHmin2/Opensource_SW/blob/master/kill%20--.png)
   
 * kill 명령어 옵션들
   |   옵션   |     설명                      |
