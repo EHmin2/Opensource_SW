@@ -42,6 +42,7 @@ $ top
       |     H      | CPU 코어 별로 세부 정보를 표시       |
         * <details>
           <summary>그외 더 많은 단축키를 알고 싶다면</summary>
+            
             <https://github.com/EHmin2/Opensource_SW/blob/master/man%20top%201.png>
                
             <https://github.com/EHmin2/Opensource_SW/blob/master/man%20top%202.png>
