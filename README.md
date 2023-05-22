@@ -84,8 +84,9 @@ $ ps [옵션]
   | --sort <필드> | 지정된 필드에 따라 프로세스를 정렬함                                         |
   | -efl         | 실행되는 프로세스에 대한 다양한 정보를 표시                                   |
   
-    * 예시
-  
+    * __예시__ (ps -efl)
+      ![image](https://github.com/EHmin2/Opensource_SW/blob/master/ps%20-efl.png)
+   
       * <details>
         <summary>`ps -efl` 명령어에 대한 출력 결과</summary>
       
