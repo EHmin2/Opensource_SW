@@ -1,7 +1,7 @@
 # 오픈소스SW개론 과제
 ***
 ## 1. top
-* top 명령어는 리눅스 시스템의 현재 상태를 보여주는 명령  
+* `top` 명령어는 리눅스 시스템의 현재 상태를 보여주는 명령  
 
     * CPU 사용량, 메모리 사용량, 디스크 사용량, 네트워크 사용량을 포함한 다양한 정보를 표시 
 
@@ -25,6 +25,12 @@ $ top
           * 두 번째 줄은 전체 프로세스 수, 실행 중인 프로세스 수, 대기 중인 프로세스 수, 정지 중인 프로세스 수, 좀비 프로세스 수를 의미
           
           * 세 번째 줄은 cpu의 사용량 정보를 의미
+            * CPU 요소
+               * %us : 유저 영역에서 사용하고 있는 CPU 비중
+               * %sy : 커널 영역에서 사용하고 있는 CPU 비중
+               * %id : 사용하지 않는 CPU 비중
+               * %wa : I/O 대기상태에서의 CPU 비중
+               * 등등..
           
           * 네 번째 줄은 시스템 메모리 사용량 정보를 의미
           
@@ -43,18 +49,19 @@ $ top
         * <details>
           <summary>그외 단축키</summary>
             
-            <https://github.com/EHmin2/Opensource_SW/blob/master/man%20top%201.png>
+            [man top 스크린샷1](https://github.com/EHmin2/Opensource_SW/blob/master/man%20top%201.png)
                
-            <https://github.com/EHmin2/Opensource_SW/blob/master/man%20top%202.png>
+            [man top 스크린샷2](https://github.com/EHmin2/Opensource_SW/blob/master/man%20top%202.png)
    
   + 프로세스 목록: 시스템에서 실행 중인 프로세스의 목록을 보여주는 영역. 
 
     각 프로세스에는 PID, PPID 상태, CPU 사용량, 메모리 사용량, 실행 시간, 커맨드가 표시
 ***  
 ## 2. ps
-* ps 명령어는 리눅스에서 현재 실행 중인 프로세스에 대한 정보를 보여주는 명령어
+* `ps` 명령어는 리눅스에서 현재 실행 중인 프로세스에 대한 정보를 보여주는 명령어
 
   * 실행 중인 프로세스의 상태, PID, PPID, CPU 및 메모리 사용량 등 다양한 정보를 확인한 수 있음
+  * `ps`는 __Process Status__ 의 약자
 
   * __윈도우의 작업 관리자와 유사함__
 * 명령어 사용법
@@ -78,9 +85,10 @@ $ ps [옵션]
   * 그 외에도 많은 ps 명령어 옵션들이 있음 
   
     __man ps__ 명령어를 실행해 더 많은 옵션들을 알 수 있음
+  * `ps -efl` 
 ***
 ## 3. jobs
-* jobs 명령어는 현재 쉘 세션에서 실행 중인 작업의 목록을 표시하는 명령어
+* `jobs` 명령어는 현재 쉘 세션에서 실행 중인 작업의 목록을 표시하는 명령어
     * 작업은 쉘에서 실행된 프로세스 또는 명령어 그룹을 의미
 * jobs 명령어를 사용하면 현재 쉘 세션에서 실행 중인 백그라운 작업 또는 정지된 작업의 상태를 확인할 수 있음
   
@@ -114,7 +122,7 @@ $ jobs [옵션]
   | -x      | 지정된 명령을 실행
 ***
 ## 4. kill
-* kill 명령어는 프로세스를 종료시키는 데 사용되는 명령어
+* `kill` 명령어는 프로세스를 종료시키는 데 사용되는 명령어
   
   모든 프로세스에는 고유한 식별 번호인 PID가 있으며 
   
@@ -130,7 +138,7 @@ $ kill [옵션][PID]
   * <details>
     <summary>흔하게 쓰이는 신호들</summary>
       
-      <https://github.com/EHmin2/Opensource_SW/blob/master/kill%20--.png>
+      [표](https://github.com/EHmin2/Opensource_SW/blob/master/kill%20--.png)
   
 * kill 명령어 옵션들
   |   옵션   |     설명                      |
@@ -140,7 +148,12 @@ $ kill [옵션][PID]
   |    -l   | 신호 이름을 나열                 |
   |    -L   | 신호 이름을 테이블로 나열          |
 
-  
+## 참고자료    
+   * top 명령어 [D.O의 IT](https://dany-it.tistory.com/348)
+   * top, ps 명령어 [달리는 개발자](https://roadofdevelopment.tistory.com/43)
+   * jobs 명령어 [나만의 브랜드로 성공하기](https://blog.naver.com/lovekor7/222843584344)
+   * Chatgpt [참고](https://chat.openai.com/)
+   * Google bard [참고](https://bard.google.com/)
   
 
   
